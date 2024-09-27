@@ -84,7 +84,6 @@ $('.plus-wishlist').click(function(){
             prod_id:id
         },
         success:function(data){
-            //alert(data.message)
             window.location.href = `http://localhost:8000/product-detail/${id}`
         }
     })
